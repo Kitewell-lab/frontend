@@ -15,7 +15,7 @@ import {
 import { fetchHealth, fetchNetworkInfo } from "./api";
 import "./App.css";
 
-const TABS = ["Wallet", "Fund", "Assets", "Send", "History", "Lab"];
+const TABS = ["Wallet", "Fund", "Assets", "Send", "History", "Status"];
 
 export default function App() {
   const [activeTab, setActiveTab] = useState("Wallet");
@@ -193,7 +193,7 @@ export default function App() {
           <KitewellMark />
           <div className="header__titles">
             <span className="header__name">Kitewell</span>
-            <span className="header__tag">Stellar Testnet lab</span>
+            <span className="header__tag">Stellar Testnet</span>
           </div>
         </div>
         <span className="badge">Testnet</span>
@@ -273,7 +273,7 @@ export default function App() {
           )}
         </section>
 
-        <nav className="tabs" aria-label="Lab sections">
+        <nav className="tabs" aria-label="Wallet sections">
           {TABS.map((t) => (
             <button
               key={t}
@@ -282,7 +282,7 @@ export default function App() {
               onClick={() => {
                 setActiveTab(t);
                 if (t === "History") handleHistory();
-                if (t === "Lab") loadLabInfo();
+                if (t === "Status") loadLabInfo();
                 if ((t === "Wallet" || t === "Assets") && publicKey) refreshBalances();
               }}
             >
@@ -506,10 +506,10 @@ export default function App() {
             </div>
           )}
 
-          {activeTab === "Lab" && (
+          {activeTab === "Status" && (
             <div className="section">
               <div className="section__row">
-                <h2>Lab stack</h2>
+                <h2>Network status</h2>
                 <button
                   className="btn btn--secondary"
                   type="button"
@@ -526,8 +526,7 @@ export default function App() {
                 </button>
               </div>
               <p className="muted">
-                Kitewell is three repos: <code>frontend</code> · <code>backend</code> ·{" "}
-                <code>contract</code>. This panel reads the local API and contract config.
+                This panel reads the local API and the configured Soroban contract.
               </p>
               {labError && (
                 <div className="info-box info-box--warning">

@@ -39,7 +39,7 @@ Override the API origin with `VITE_API_BASE` if needed.
 - Balances + `changeTrust`
 - Native XLM payments + history
 - Backend-backed account/payment reads (Horizon fallback)
-- Lab panel for API + contract status
+- Status panel for API and contract config
 
 ## License
 

@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "description": "Kitewell frontend — Freighter wallet lab UI",
+  "description": "Kitewell frontend — Freighter wallet UI",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
