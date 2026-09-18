@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="public/logo.png" width="96" alt="Kitewell logo" />
+</p>
+
 # Kitewell — Frontend
 
 React + Vite wallet lab UI for Stellar Testnet. Connect Freighter, fund with Friendbot, manage trustlines, send XLM, and inspect payment history.
