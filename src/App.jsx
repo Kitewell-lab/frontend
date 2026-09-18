@@ -190,9 +190,9 @@ export default function App() {
 
       <header className="header">
         <div className="header__brand">
-          <HeliosMark />
+          <KitewellMark />
           <div className="header__titles">
-            <span className="header__name">Helios Lab</span>
+            <span className="header__name">Kitewell</span>
             <span className="header__tag">Stellar Testnet lab</span>
           </div>
         </div>
@@ -310,7 +310,7 @@ export default function App() {
               {requireWallet ? (
                 <>
                   <p className="muted">
-                    Helios Lab requests access with Freighter&apos;s{" "}
+                    Kitewell requests access with Freighter&apos;s{" "}
                     <code>setAllowed</code> / <code>getAddress</code> APIs. Keys never leave
                     the extension.
                   </p>
@@ -526,8 +526,8 @@ export default function App() {
                 </button>
               </div>
               <p className="muted">
-                Helios Lab is a monorepo: <code>frontend</code> · <code>backend</code> ·{" "}
-                <code>contracts</code>. This panel reads the local API and contract config.
+                Kitewell is three repos: <code>frontend</code> · <code>backend</code> ·{" "}
+                <code>contract</code>. This panel reads the local API and contract config.
               </p>
               {labError && (
                 <div className="info-box info-box--warning">
@@ -549,10 +549,10 @@ export default function App() {
                     <code>{labInfo.network.horizonUrl}</code>
                   </div>
                   <div className="info-box">
-                    <span className="eyebrow">Soroban · helios_lab</span>
+                    <span className="eyebrow">Soroban · kitewell</span>
                     <code>
-                      {labInfo.network.contract?.heliosLab ||
-                        "Not deployed yet — see contracts/README.md"}
+                      {labInfo.network.contract?.kitewell ||
+                        "Not deployed yet — see the contract repo README"}
                     </code>
                     <p className="muted" style={{ marginTop: 6 }}>
                       Status: {labInfo.network.contract?.status}
@@ -626,9 +626,9 @@ export default function App() {
       </main>
 
       <footer className="footer">
-        <strong>Helios Lab</strong> · Stellar Testnet · Freighter ·{" "}
+        <strong>Kitewell</strong> · Stellar Testnet · Freighter ·{" "}
         <a
-          href="https://github.com/CemAyyildiz/helios-lab"
+          href="https://github.com/ayyldCem-0/frontend"
           target="_blank"
           rel="noreferrer"
         >
@@ -644,15 +644,12 @@ function shorten(key) {
   return `${key.slice(0, 6)}…${key.slice(-6)}`;
 }
 
-function HeliosMark() {
+function KitewellMark() {
   return (
     <svg className="mark" width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden>
-      <circle cx="18" cy="18" r="18" fill="#121826" />
-      <circle cx="18" cy="18" r="7" fill="#F5C542" />
-      <g stroke="#E8A317" strokeWidth="1.6" strokeLinecap="round">
-        <path d="M18 3v4M18 29v4M3 18h4M29 18h4" />
-        <path d="M7.8 7.8l2.8 2.8M25.4 25.4l2.8 2.8M7.8 28.2l2.8-2.8M25.4 10.6l2.8-2.8" />
-      </g>
+      <rect width="36" height="36" rx="10" fill="#121826" />
+      <path d="M18 5 L31 18 L18 31 L5 18 Z" fill="#7DD3FC" />
+      <path d="M18 11 L25 18 L18 25 L11 18 Z" fill="#0369A1" />
     </svg>
   );
 }

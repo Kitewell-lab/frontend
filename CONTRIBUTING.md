@@ -1,4 +1,4 @@
-# Contributing to Helios Lab Frontend
+# Contributing to Kitewell Frontend
 
 React, Freighter, and Vite UI for the Stellar Testnet lab.
 

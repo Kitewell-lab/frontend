@@ -53,7 +53,7 @@ function mapHorizonBalances(account) {
   });
 }
 
-/** Prefer Helios backend; fall back to direct Horizon. */
+/** Prefer Kitewell backend; fall back to direct Horizon. */
 export async function getAccountBalances(publicKey) {
   try {
     const data = await fetchAccountViaApi(publicKey);

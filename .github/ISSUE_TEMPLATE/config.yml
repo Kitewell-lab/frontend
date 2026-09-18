@@ -3,9 +3,9 @@ contact_links:
   - name: Drips Wave docs
     url: https://docs.drips.network/wave/
     about: How Stellar Wave issues, points, and maintainer flows work
-  - name: Helios Lab backend
+  - name: Kitewell backend
     url: https://github.com/ayyldCem-0/backend
     about: Horizon helpers API
-  - name: Helios Lab contract
+  - name: Kitewell contract
     url: https://github.com/ayyldCem-0/contract
     about: Soroban registry

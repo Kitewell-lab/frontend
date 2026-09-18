@@ -25,7 +25,7 @@ export async function connectFreighterWallet() {
 
   const permission = await setAllowed();
   if (!permission.isAllowed) {
-    throw new Error("Connection denied. Allow Helios Lab in Freighter to continue.");
+    throw new Error("Connection denied. Allow Kitewell in Freighter to continue.");
   }
 
   const addressResult = await getAddress();
