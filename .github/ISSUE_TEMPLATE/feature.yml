@@ -1,0 +1,37 @@
+name: Feature
+description: Propose a Helios Lab feature
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What should Helios Lab do?
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: Checklist for “done”
+      value: |
+        - [ ]
+    validations:
+      required: true
+  - type: dropdown
+    id: complexity
+    attributes:
+      label: Suggested Wave complexity
+      options:
+        - Trivial (100 pts)
+        - Medium (150 pts)
+        - High (200 pts)
+        - N/A
+    validations:
+      required: true
+  - type: textarea
+    id: files
+    attributes:
+      label: Likely files
+      placeholder: src/App.jsx, src/stellar.js, …
