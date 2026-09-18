@@ -628,7 +628,7 @@ export default function App() {
       <footer className="footer">
         <strong>Kitewell</strong> · Stellar Testnet · Freighter ·{" "}
         <a
-          href="https://github.com/ayyldCem-0/frontend"
+          href="https://github.com/Kitewell-lab/frontend"
           target="_blank"
           rel="noreferrer"
         >

@@ -10,8 +10,8 @@ Sibling repos:
 
 | Layer | Repo |
 |-------|------|
-| Backend | [ayyldCem-0/backend](https://github.com/ayyldCem-0/backend) |
-| Contract | [ayyldCem-0/contract](https://github.com/ayyldCem-0/contract) |
+| Backend | [Kitewell-lab/backend](https://github.com/Kitewell-lab/backend) |
+| Contract | [Kitewell-lab/contract](https://github.com/Kitewell-lab/contract) |
 
 ## Quick start
 
@@ -22,7 +22,7 @@ npm run dev
 
 Open http://localhost:5173. Freighter must be on **Testnet**.
 
-The Vite dev server proxies `/api` and `/health` to the backend at `http://localhost:8787`. Run the [backend](https://github.com/ayyldCem-0/backend) in another terminal:
+The Vite dev server proxies `/api` and `/health` to the backend at `http://localhost:8787`. Run the [backend](https://github.com/Kitewell-lab/backend) in another terminal:
 
 ```bash
 # from the backend repo

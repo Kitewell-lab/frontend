@@ -9,7 +9,7 @@ npm install
 npm run dev        # http://localhost:5173
 ```
 
-Run the [backend](https://github.com/ayyldCem-0/backend) on `:8787` for lab panel + API-backed reads.
+Run the [backend](https://github.com/Kitewell-lab/backend) on `:8787` for lab panel + API-backed reads.
 
 ```bash
 npm run lint
@@ -23,7 +23,7 @@ npm run build
 3. Keep signing in Freighter — never handle secret keys in the UI beyond the wallet
 4. Default network is Testnet
 
-Sibling layers: [backend](https://github.com/ayyldCem-0/backend), [contract](https://github.com/ayyldCem-0/contract).
+Sibling layers: [backend](https://github.com/Kitewell-lab/backend), [contract](https://github.com/Kitewell-lab/contract).
 
 ## Code of conduct
 
