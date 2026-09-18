@@ -19,17 +19,6 @@ body:
         - [ ]
     validations:
       required: true
-  - type: dropdown
-    id: complexity
-    attributes:
-      label: Suggested Wave complexity
-      options:
-        - Trivial (100 pts)
-        - Medium (150 pts)
-        - High (200 pts)
-        - N/A
-    validations:
-      required: true
   - type: textarea
     id: files
     attributes:

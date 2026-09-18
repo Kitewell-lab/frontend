@@ -1,6 +1,6 @@
 # Contributing to Kitewell Frontend
 
-React, Freighter, and Vite UI for the Stellar Testnet lab.
+React, Freighter, and Vite UI for Stellar Testnet.
 
 ## Local setup
 
@@ -9,7 +9,7 @@ npm install
 npm run dev        # http://localhost:5173
 ```
 
-Run the [backend](https://github.com/Kitewell-lab/backend) on `:8787` for lab panel + API-backed reads.
+Run the [backend](https://github.com/Kitewell-lab/backend) on `:8787` for API-backed reads.
 
 ```bash
 npm run lint

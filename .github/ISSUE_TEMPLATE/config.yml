@@ -1,11 +1,8 @@
 blank_issues_enabled: true
 contact_links:
-  - name: Drips Wave docs
-    url: https://docs.drips.network/wave/
-    about: How Stellar Wave issues, points, and maintainer flows work
   - name: Kitewell backend
     url: https://github.com/Kitewell-lab/backend
-    about: Horizon helpers API
+    about: Horizon API
   - name: Kitewell contract
     url: https://github.com/Kitewell-lab/contract
     about: Soroban registry

@@ -4,7 +4,7 @@
 
 # Kitewell — Frontend
 
-React + Vite wallet lab UI for Stellar Testnet. Connect Freighter, fund with Friendbot, manage trustlines, send XLM, and inspect payment history.
+React + Vite wallet UI for Stellar Testnet. Connect Freighter, fund with Friendbot, manage trustlines, send XLM, and inspect payment history.
 
 Sibling repos:
 
